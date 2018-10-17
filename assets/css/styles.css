@@ -41,6 +41,10 @@ section {
     padding: 100px 80px;
 }
 
+section:not(.hero):nth-child(even) {
+    background-color: #f5f5f5;
+}
+
 /* Header Styles */
 
 header {
@@ -186,4 +190,31 @@ section p {
 }
 .small-four {
     background-image: url(../img/mountain4.jpg);
+}
+
+
+/* Packages Selection */
+
+.packages .grid li {
+    padding: 50px;
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.packages .grid li i {
+    color: #8c9eff;
+}
+
+.packages .grid li h4 {
+    font-size: 30px;
+    margin: 25px 0;
+}
+
+/* Testimonials Section */
+
+.testimonials .quote {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 40px 0 25px;
 }
